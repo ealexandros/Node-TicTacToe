@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+    
+    <body>
+        <h1 class="header-tag">Tic Tac Toe</h1>
+        <div class="palette shadow d-flex flex-column rounded">
+            <div class="row">
+                <div class="col-4 btn_text" id="0" onclick="new_move(0)"></div>
+                <div class="col-4 btn_text" id="1" onclick="new_move(1)"></div>
+                <div class="col-4 btn_text" id="2" onclick="new_move(2)"></div>
+            </div>
+            <div class="row">
+                <div class="col-4 btn_text" id="3" onclick="new_move(3)"></div>
+                <div class="col-4 btn_text" id="4" onclick="new_move(4)"></div>
+                <div class="col-4 btn_text" id="5" onclick="new_move(5)"></div>
+            </div>
+            <div class="row">
+                <div class="col-4 btn_text" id="6" onclick="new_move(6)"></div>
+                <div class="col-4 btn_text" id="7" onclick="new_move(7)"></div>
+                <div class="col-4 btn_text" id="8" onclick="new_move(8)"></div>
+            </div>
+        </div>
+
+        <div class="container text-center lead mt-3" id="info">Waiting for player!</div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+        <script src="js/main.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+:root {
+    --main-bg: #03191e;
+    --secondery: #f55d3e
+}
+
+body {
+    background-color: var(--main-bg);
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header-tag {
+    margin-top: 2em;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+
+*, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+.palette {
+    height: 20em;
+    width: 20em;
+    background-image: url('assets/Group\ 1.svg');
+    background-size: cover;
+    margin: auto;
+}
+
+.row {
+    height: 6.6em;
+}
+
+.btn_text {
+    font-size: 3.6em;
+}
